@@ -1,27 +1,117 @@
 <!DOCTYPE html>
 <html lang="ru">
+
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
   </head>
+
   <body>
-    <header class="main-header">
-      <nav class="main-navigation">
-        <ul>
-          <li><a href="#">ИНФОРМАЦИЯ</a></li>
-          <li><a href="#">ФОТО И ВИДЕО</a></li>
-          <li><a href="#">
-            <img src="" width="137" height="70" alt="Лого">
-          </a></li>
-          <li><a href="#">КАРТА ШТАТА</a></li>
-          <li><a href="#">ГОСТИНИЦЫ</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <div class="index-logo">
-        <img src="" width="500" height="300" alt="Welcome to SEDONA">
-      </div>
-    </main>
+    <div class="wrapper">
+
+      <header class="main-header">
+        <nav class="main-navigation">
+          <ul>
+            <li><a href="#">ИНФОРМАЦИЯ</a></li>
+            <li><a href="#">ФОТО И ВИДЕО</a></li>
+            <li></li>
+            <li><a href="#">КАРТА ШТАТА</a></li>
+            <li><a href="#">ГОСТИНИЦЫ</a></li>
+          </ul>
+          <div class="nav-logo">
+            <img src="" width="137" height="70" alt="logo" />
+          </div>
+        </nav>
+      </header>
+
+      <main>
+
+        <section class="introduction">
+          <img src="" width="458" height="352" alt="Welcome to SEDONA">
+          <h3>СЕДОНА - НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ, ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</h3>
+          <p>
+            РАССМОТРИМ ПЯТЬ ПРИЧИН, ПО КОТОРЫМ СЕДОНА КРУЧЕ, ЧЕМ ГРАНД КАНЬОН!
+          </p>
+        </section>
+
+        <section class="reasons">
+          <article class="reasons-item">
+            <h3>НАСТОЯЩИЙ ГОРОДОК</h3>
+            <p>- №1 -</p>
+            <p>СЕДОНА — НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
+          </article>
+          <!-- For the photo as background -->
+          <article class="reasons-item"></article>
+          <div class="description">
+            <article class="describtion-item">
+              <h3>ЖИЛЬЕ</h3>
+              <p>РЕКОМЕНДУЕМ ПОЖИТЬ В НАСТОЯЩЕМ МОТЕЛЕ, ВСЕ КАК В КИНО!</p>
+            </article>
+            <article class="describtion-item">
+              <h3>ЕДА</h3>
+              <p>Всегда заказывайте ФИРМЕННЫЙ БУРГЕР,ВЫ НЕ РАЗОЧАРУЕТЕСЬ</p>
+            </article>
+            <article class="describtion-item">
+              <h3>СУВЕНИРЫ</h3>
+              <p>НЕ ТОЛЬКО КИТАЙСКОГО, НО И МЕСТНОГО ПРОИЗВОДСТВА</p>
+            </article>
+          </div>
+          <!-- For the photo as background -->
+          <article class="reasons-item"></article>
+          <article class="reasons-item">
+            <h3>ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</h3>
+            <p>- №2 -</p>
+            <p>ДА, ПО НЕМУ МОЖНО ПРОЙТИ! ЕСЛИ КОНЕЧНО ВЫ ОСМЕЛИТЕСЬ</p>
+          </article>
+          <article class="reasons-item">
+            <h3>НЕБОЛЬШАЯ ПЛОЩАДЬ</h3>
+            <p>- №3 -</p>
+            <p>ВСЕ ДОСТОПРИМЕЧАТЕЛЬНОСТИ НАХОДЯТСЯ ОЧЕНЬ БЛИЗКО</p>
+          </article>
+          <article class="reasons-item">
+            <h3>КРАСИВАЯ ДОРОГА</h3>
+            <p>- №4 -</p>
+            <p>ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА СОВСЕМ НЕ СКУЧНО!</p>
+          </article>
+          <article class="reasons-item">
+            <h3>МАЛО ТУРИСТОВ</h3>
+            <p>- №5 -</p>
+            <p>БОЛЬШИНСТВО ЕДЕТ В ГРАНД-КАНЬОН И ТОЛПИТСЯ ТАМ</p>
+          </article>
+        </section>
+
+        <section class="hotel-search">
+          <h2>ЗАИНТЕРЕСОВАЛИСЬ?</h2>
+          <p>УКАЖИТЕ ПРЕДПОЛАГАЕМЫЕ ДАТЫ ПОЕЗДКИ, И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДЛОЖЕНИЯ ГОСТИНИЦ В СЕДОНЕ</p>
+          <img src="" width="1200" height="472" alt="map" />
+          <form action="" class="sedona-hotels">
+            <header>
+              <h3>ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</h3>
+            </header>
+            <label for="arrival-date">ДАТА ЗАЕЗДА:</label>
+            <input type="text" id="arrival-date" name="arrival" value="">
+            <label for="leaving-date">ДАТА ВЫЕЗДА:</label>
+            <input type="text" id="leaving-date" name="leaving" value="">
+            <label for="grown-ups">ВЗРОСЛЫЕ:</label>
+            <input type="text" id="grown-ups" name="grown-ups" value="">
+            <label for="children">ДЕТИ:</label>
+            <input type="text" id="children" name="children" value="">
+            <button type="submit" name="button">НАЙТИ</button>
+          </form>
+        </section>
+
+      </main>
+
+        <footer>
+          <p>#VISITSEDONA</p>
+            <ul class="socials">
+              <li class="tw"></li>
+              <li class="fb"></li>
+              <li class="ytb"></li>
+            </ul>
+            <p>WEBSITE BY</p>
+        </footer>
+
+    </div>
   </body>
 </html>

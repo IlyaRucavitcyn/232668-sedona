@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+
+      <header class="main-header">
+        <nav class="main-navigation">
+          <ul>
+            <li><a href="#">ИНФОРМАЦИЯ</a></li>
+            <li><a href="#">ФОТО И ВИДЕО</a></li>
+            <li></li>
+            <li><a href="#">КАРТА ШТАТА</a></li>
+            <li><a href="#">ГОСТИНИЦЫ</a></li>
+          </ul>
+          <div class="nav-logo">
+            <img src="" width="137" height="70" alt="logo" />
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <form action="" class="hotel-conditions">
+
+          <p>ИНФРАСТРУКТУРА:</p>
+          <label for="swimingpool">Бассейн</label>
+          <input type="checkbox" id="swimingpool" name="" value="">
+          <label for="parking">Парковка</label>
+          <input type="checkbox" id="parking" name="" value="">
+          <label for="wifi">WI-FI</label>
+          <input type="checkbox" id="wifi" WI-FI value="">
+
+          <p>ТИП ЖИЛЬЯ:</p>
+          <label for="hotel">Гостиница</label>
+          <input type="checkbox" id="hotel" name="" value="">
+          <label for="motel">Мотель</label>
+          <input type="checkbox" id="motel" name="" value="">
+          <label for="apartment">Апартаменты</label>
+          <input type="checkbox" id="apartment" WI-FI value="">
+
+          <p>СТОИМОСТЬ ЖИЛЬЯ:</p>
+          <div class="output">
+            <input id="lower-range-value" type="text" name="name" value="">|
+            <input id="higher-range-value" type="text" name="name" value="">
+          </div>
+          <input id="lower-price" type="range" min="0" max="3000" step="1" />
+          <input id="higher-price" type="range" min="0" max="3000" step="1" />
+
+          <button type="submit">ПОКАЗАТЬ</button>
+        </form>
+
+        <section class="hotels-list">
+          <header class="hotels-list-header">
+            <h3>НАЙДЕНО:<span>3</span></h3>
+            <form action="">
+              <ul>
+                <li>
+                  <label for="">ПО ЦЕНЕ</label>
+                  <input type="radio" name="sorter" value="price" checked checked>
+                </li>
+                <li>
+                  <label for="">ПО ТИПУ</label>
+                  <input type="radio" name="sorter" value="type" checked>
+                </li>
+                <li>
+                  <label for="">ПО РЕЙТИНГУ</label>
+                  <input type="radio" name="sorter" value="rating" checked>
+                </li>
+              </ul>
+            </form>
+
+            <button id="sort-up-button" type="button"></button>
+            <button id="sort-down-button" type="button"></button>
+          </header>
+        </section>
+
+      </main>
+
+        <footer>
+          <p>#VISITSEDONA</p>
+            <ul class="socials">
+              <li class="tw"></li>
+              <li class="fb"></li>
+              <li class="ytb"></li>
+            </ul>
+            <p>WEBSITE BY</p>
+        </footer>
+
+    </div>
+  </body>
+</html>
