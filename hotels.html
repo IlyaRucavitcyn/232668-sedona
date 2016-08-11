@@ -19,7 +19,7 @@
             <li><a href="#">ГОСТИНИЦЫ</a></li>
           </ul>
           <div class="nav-logo">
-            <img src="" width="137" height="70" alt="logo" />
+            <img src="http://placehold.it/137x70" width="137" height="70" alt="logo" />
           </div>
         </nav>
       </header>
@@ -28,20 +28,20 @@
         <form action="" class="hotel-conditions">
 
           <p>ИНФРАСТРУКТУРА:</p>
-          <label for="swimingpool">Бассейн</label>
           <input type="checkbox" id="swimingpool" name="" value="">
-          <label for="parking">Парковка</label>
+          <label for="swimingpool">Бассейн</label>
           <input type="checkbox" id="parking" name="" value="">
-          <label for="wifi">WI-FI</label>
+          <label for="parking">Парковка</label>
           <input type="checkbox" id="wifi" WI-FI value="">
+          <label for="wifi">WI-FI</label>
 
           <p>ТИП ЖИЛЬЯ:</p>
-          <label for="hotel">Гостиница</label>
           <input type="checkbox" id="hotel" name="" value="">
-          <label for="motel">Мотель</label>
+          <label for="hotel">Гостиница</label>
           <input type="checkbox" id="motel" name="" value="">
-          <label for="apartment">Апартаменты</label>
+          <label for="motel">Мотель</label>
           <input type="checkbox" id="apartment" WI-FI value="">
+          <label for="apartment">Апартаменты</label>
 
           <p>СТОИМОСТЬ ЖИЛЬЯ:</p>
           <div class="output">
@@ -57,26 +57,65 @@
         <section class="hotels-list">
           <header class="hotels-list-header">
             <h3>НАЙДЕНО:<span>3</span></h3>
-            <form action="">
               <ul>
                 <li>
-                  <label for="">ПО ЦЕНЕ</label>
-                  <input type="radio" name="sorter" value="price" checked checked>
+                  <a href="#">ПО ЦЕНЕ</a>
                 </li>
                 <li>
-                  <label for="">ПО ТИПУ</label>
-                  <input type="radio" name="sorter" value="type" checked>
+                  <a href="#">ПО ТИПУ</a>
                 </li>
                 <li>
-                  <label for="">ПО РЕЙТИНГУ</label>
-                  <input type="radio" name="sorter" value="rating" checked>
+                  <a href="#">ПО РЕЙТИНГУ</a>
                 </li>
               </ul>
-            </form>
 
             <button id="sort-up-button" type="button"></button>
             <button id="sort-down-button" type="button"></button>
           </header>
+          <div class="hotels-list-main">
+            <article class="hotels-item">
+              <div class="promophoto">
+                <img src="http://placehold.it/135x90" alt="Hotel Photo">
+              </div>
+              <div class="hotel-info">
+                <h3>AMARA RESORT & SPA  <span></span></h3>
+                <p>ГОСТИНИЦА <span>ОТ 3500 Р.</span></p>
+                <div class="controls">
+                  <a href="#">ПОДРОБНЕЕ</a>
+                  <a href="#">ЗАБРОНИРОВАТЬ</a>
+                  <p>РЕЙТИНГ:8,5</p>
+                </div>
+              </div>
+            </article>
+            <article class="hotels-item">
+              <div class="promophoto">
+                <img src="http://placehold.it/135x90" alt="Hotel Photo">
+              </div>
+              <div class="hotel-info">
+                <h3>DESERT QUAIL INN  <span></span></h3>
+                <p>МОТЕЛЬ <span>ОТ 2000 Р.</span></p>
+                <div class="controls">
+                  <a href="#">ПОДРОБНЕЕ</a>
+                  <a href="#">ЗАБРОНИРОВАТЬ</a>
+                  <p>РЕЙТИНГ:8,9</p>
+                </div>
+              </div>
+            </article>
+            <article class="hotels-item">
+              <div class="promophoto">
+                <img src="http://placehold.it/135x90" alt="Hotel Photo">
+              </div>
+              <div class="hotel-info">
+                <h3>VILLAS AT POCO DIABLO<span></span></h3>
+                <p>АПАРТАМЕНТЫ <span>ОТ 2000 Р.</span></p>
+                <div class="controls">
+                  <a href="#">ПОДРОБНЕЕ</a>
+                  <a href="#">ЗАБРОНИРОВАТЬ</a>
+                  <p>РЕЙТИНГ:8,9</p>
+                </div>
+              </div>
+            </article>
+          </div>
         </section>
 
       </main>
